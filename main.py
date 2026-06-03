@@ -20,9 +20,7 @@ def main():
         handler=MessageHandler(filters=Filters.text("Bosh Sahifa"), callback=main_menu)
     )
     dispatcher.add_handler(
-        handler=MessageHandler(
-            filters=Filters.text("Mahsulotlar"), callback=products_menu
-        )
+        handler=MessageHandler(filters=Filters.text("Mahsulotlar"), callback=products_menu)
     )
     dispatcher.add_handler(
         handler=MessageHandler(filters=Filters.text, callback=echo_text)
