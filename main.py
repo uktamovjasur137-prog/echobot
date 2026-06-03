@@ -1,4 +1,5 @@
-from telegram.ext import Updater, MessageHandler, CommandHandler, Filters
+from telegram.ext import Updater, MessageHandler, CommandHandler
+from telegram.ext.filters import Filters
 
 from settings import settings
 from handlers import (
