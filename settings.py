@@ -6,5 +6,6 @@ load_dotenv()
 
 class Settings:
     TOKEN = os.getenv("TOKEN")
+    
 
 settings = Settings()
